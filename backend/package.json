@@ -1,0 +1,29 @@
+{
+  "name": "accounting-dashboard-backend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "clean": "rimraf dist coverage"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1502.0",
+    "async-lock": "^1.4.1",
+    "crypto": "^1.0.1",
+    "json2csv": "^6.0.0",
+    "node-cache": "^5.1.2",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.10",
+    "@types/node": "^20.9.4",
+    "nodemon": "^3.0.1",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.0.0",
+    "@types/aws-lambda": "^8.10.126"
+  }
+}

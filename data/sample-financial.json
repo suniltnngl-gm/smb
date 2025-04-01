@@ -1,0 +1,36 @@
+{
+  "records": [
+    {
+      "id": "fin-001",
+      "type": "sale",
+      "amount": 12500,
+      "description": "Water purifier sale",
+      "productType": "water purifiers",
+      "date": "2023-01-01",
+      "customer": "Rahul Sharma",
+      "paymentMethod": "UPI",
+      "createdAt": 1672531200000
+    },
+    {
+      "id": "fin-002",
+      "type": "expense",
+      "amount": 5000,
+      "description": "Monthly rent",
+      "category": "operational",
+      "date": "2023-01-02",
+      "paymentMethod": "bank transfer",
+      "createdAt": 1672617600000
+    },
+    {
+      "id": "fin-003",
+      "type": "service",
+      "amount": 1500,
+      "description": "Water purifier maintenance",
+      "productType": "water purifiers",
+      "date": "2023-01-03",
+      "customer": "Priya Patel",
+      "paymentMethod": "cash",
+      "createdAt": 1672704000000
+    }
+  ]
+}

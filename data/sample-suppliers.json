@@ -1,0 +1,40 @@
+{
+  "suppliers": [
+    {
+      "id": "sup-001",
+      "name": "PureLife Systems",
+      "contactPerson": "Amit Kumar",
+      "phone": "+91-9876543210",
+      "email": "amit.kumar@purelife.com",
+      "address": "123 Industrial Area, Mumbai",
+      "products": ["water purifiers"],
+      "paymentTerms": "net 30",
+      "rating": 4.5,
+      "isSubstituted": false
+    },
+    {
+      "id": "sup-002",
+      "name": "SafeGuard Tech",
+      "contactPerson": "Deepa Singh",
+      "phone": "+91-9876543211",
+      "email": "deepa.singh@safeguard.com",
+      "address": "456 Tech Park, Bangalore",
+      "products": ["security cameras"],
+      "paymentTerms": "net 45",
+      "rating": 4.2,
+      "isSubstituted": false
+    },
+    {
+      "id": "sup-003",
+      "name": "PowerTech Solutions",
+      "contactPerson": "Rajesh Verma",
+      "phone": "+91-9876543212",
+      "email": "rajesh.verma@powertech.com",
+      "address": "789 Power Complex, Delhi",
+      "products": ["inverters", "batteries"],
+      "paymentTerms": "net 30",
+      "rating": 4.8,
+      "isSubstituted": false
+    }
+  ]
+}

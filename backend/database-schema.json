@@ -1,0 +1,20 @@
+{
+  "TableName": "accounting-table",
+  "KeySchema": [
+    { "AttributeName": "id", "KeyType": "HASH" }
+  ],
+  "AttributeDefinitions": [
+    { "AttributeName": "id", "AttributeType": "S" }
+  ],
+  "ProvisionedThroughput": {
+    "ReadCapacityUnits": 5,
+    "WriteCapacityUnits": 5
+  },
+  "PointInTimeRecoverySpecification": {
+    "PointInTimeRecoveryEnabled": true
+  },
+  "Tags": [
+    { "Key": "Environment", "Value": "Production" },
+    { "Key": "Project", "Value": "AccountingDashboard" }
+  ]
+}

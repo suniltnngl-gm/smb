@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "id": "inv-001",
+      "productType": "water purifiers",
+      "serialNumber": "WP2023001",
+      "batchNumber": "BATCH2023001",
+      "model": "AquaPure X1000",
+      "manufacturer": "PureLife Systems",
+      "make": "India",
+      "manufacturingDate": "2023-01-01",
+      "expiryDate": "2025-01-01",
+      "purchaseQuantity": 20,
+      "sellingQuantity": 5,
+      "warrantyStatus": "active",
+      "stock": 15,
+      "amount": 12500,
+      "createdAt": 1672531200000
+    },
+    {
+      "id": "inv-002",
+      "productType": "security cameras",
+      "serialNumber": "SC2023045",
+      "batchNumber": "BATCH2023045",
+      "model": "SecureCam Pro",
+      "manufacturer": "SafeGuard Tech",
+      "make": "China",
+      "manufacturingDate": "2023-02-01",
+      "expiryDate": "2026-02-01",
+      "purchaseQuantity": 10,
+      "sellingQuantity": 2,
+      "warrantyStatus": "active",
+      "stock": 8,
+      "amount": 8999,
+      "createdAt": 1672617600000
+    },
+    {
+      "id": "inv-003",
+      "productType": "inverters",
+      "serialNumber": "INV2023112",
+      "model": "PowerBack 2400",
+      "manufacturer": "PowerTech Solutions",
+      "warrantyStatus": "active",
+      "stock": 5,
+      "amount": 15999,
+      "createdAt": 1672704000000
+    }
+  ]
+}

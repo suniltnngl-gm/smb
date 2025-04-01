@@ -1,0 +1,31 @@
+{
+  "users": [
+    {
+      "id": "usr-001",
+      "username": "admin123",
+      "email": "admin@example.com",
+      "role": "admin",
+      "firstName": "Admin",
+      "lastName": "User",
+      "department": "Management"
+    },
+    {
+      "id": "usr-002",
+      "username": "staff123",
+      "email": "staff@example.com",
+      "role": "staff",
+      "firstName": "Staff",
+      "lastName": "User",
+      "department": "Sales"
+    },
+    {
+      "id": "usr-003",
+      "username": "account123",
+      "email": "accountant@example.com",
+      "role": "staff",
+      "firstName": "Account",
+      "lastName": "User",
+      "department": "Finance"
+    }
+  ]
+}
